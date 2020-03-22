@@ -1,1 +1,153 @@
-<!-- In this file you are going to write the CSS code -->
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+.transparent_nav{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/img/background.jpg");
+    background-size: cover;
+}
+.nav_bar{
+    width: 100%;
+    height: 80px;
+    background-color:rgba(169, 169, 169, 0.7);
+    position: fixed;
+    line-height: 80px;
+}
+.nav_bar #nav_list{
+    float: right;
+    margin-right: 30px;
+}
+.nav_bar #nav_list li{
+    list-style-type: none;
+    display: inline-block;
+}
+.nav_bar #nav_list li:hover{
+    background-color: rgb(0,191,255);
+    display: inline-block;
+    transition: 0.8s all;
+}
+.nav_bar #nav_list li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 30px;
+}
+.cta #cta_text:hover, .cta #cta_link:hover {
+    color: black;background: rgba(169, 169, 169);
+    }
+
+    .cta #cta_text {
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+      }
+     .cta #cta_link {
+        position: absolute;
+        bottom: 8px;
+        right: 16px;
+      }
+.services_wrapper{
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+        
+}
+.services_wrapper #services_list{
+    overflow:hidden;
+    }
+.services_wrapper li{
+    display:inline-block;
+    width: 30%;
+    }
+
+.column {
+    float: left;
+    width: 20%;
+    position: relative;
+  }
+  .recent_work::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+  }
+  .overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  .column:hover .overlay {
+    opacity: 1;
+  }
+  .testimonials_wrapper{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background: rgb(220,220,220);
+}
+.testimonials_wrapper #testimonials_list{
+overflow:hidden;
+}
+.testimonials_wrapper li{
+display:inline-block;
+width: 30%;
+}
+
+.testimonials_wrapper img {
+    border-radius: 50%;
+  }
+.footer_widget:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+ .footer_widget_list{
+    float: left;
+    width: 26.5%;
+    padding: 6.5px;
+    height: 300px; 
+    background: black;
+    color: white;
+  }
+  .footer_widget #location{
+    width: 20%;
+  }
+.footer_widget #company li{
+    list-style-type: none;
+}
+.footer_widget #company li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.footer_widget #support li{
+    list-style-type: none;   
+}
+.footer_widget #support li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.footer_widget #ark_studio{
+    text-align: left;
+    width: 23%;
+}
+.rights {
+    text-align: center;
+    background: black;
+    color: white;
+}
