@@ -48,17 +48,17 @@
         bottom: 8px;
         right: 16px;
       }
-.services_wrapper{
+.services wrapper{
         width: 80%;
         margin: 0 auto;
         padding: 20px;
         text-align: center;
         
 }
-.services_wrapper #services_list{
+.services wrapper #services_list{
     overflow:hidden;
     }
-.services_wrapper li{
+.services wrapper li{
     display:inline-block;
     width: 30%;
     }
