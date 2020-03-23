@@ -146,8 +146,7 @@ width: 30%;
     text-align: left;
     width: 23%;
 }
-.rights {
+..rights {
     text-align: center;
-    background: black;
-    color: white;
+   
 }
